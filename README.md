@@ -6,5 +6,6 @@ This program will recursively walk the directory it is launched from and copy th
 
 Copy all JPEG images to the FOUND directory: `./find-files .jpeg .jpg`
 
-If you are short on space, extract (move) the files to the FOUND directory instead: 
+If you are short on space, extract (move) the files to the FOUND directory instead:
+ 
 `./find-files -x .jpeg .jpg`
