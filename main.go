@@ -111,7 +111,6 @@ func main() {
 
 	fmt.Println("All files have been copied or moved to the FOUND directory.")
 
-	// Preserve terminal window after execution on Windows
-	fmt.Println("Press any key to exit...")
+	fmt.Println("Press enter key to exit...")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 }
